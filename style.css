@@ -47,14 +47,14 @@
     transform: translate(-50%, -50%);
 }
 .B img {
-    position: relative;
+
     width: 28px;
     border-radius: 34px;
     
 
 }
 .Time {
-    
+    position: relative;
     left: 43%;
     color: salmon;
     top: 89%;
