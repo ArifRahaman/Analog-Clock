@@ -59,7 +59,7 @@
     color: salmon;
     top: 89%;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    font-size: 40px;
+    font-size: 48px;
     animation: colorBlink 2s ease-in-out infinite;
    
 }
@@ -159,9 +159,9 @@
     
     top: 50%;
     left: 50%;
-    height: 3px;
-    width: 4px;
-    border-radius: 2px;
+    height: 0.4%;
+    width: 1%;
+    border-radius: 2%;
 }
 .star-field .layer:nth-child(1) {
     animation: sf-fly-by-1 5s linear infinite;
