@@ -10,7 +10,7 @@
 #hour,
 #minute,
 #second {
-    position: relative;
+    position: absolute; /* Change from relative to absolute */
     background: black;
     border-radius: 10px;
     transform-origin: bottom;
@@ -38,20 +38,20 @@
     top: 9%;
     left: 49.25%;
     opacity: 0.8;
-
 }
+
 .B {
     position: absolute;
     left: 50%;
     top: 45%;
     transform: translate(-50%, -50%);
 }
+
 .B img {
     width: 25px;
     border-radius: 34px;
-    
-
 }
+
 .Time {
     position: absolute;
     left: 43%;
@@ -61,6 +61,7 @@
     font-size: 34px;
     animation: colorBlink 2s ease-in-out infinite;
 }
+
 @keyframes colorBlink {
     0% {
         color: rgb(89, 205, 50);
