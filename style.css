@@ -59,7 +59,7 @@
     color: salmon;
     top: 89%;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    font-size: 48px;
+    font-size: 70px;
     animation: colorBlink 2s ease-in-out infinite;
    
 }
