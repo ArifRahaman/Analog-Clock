@@ -1,19 +1,61 @@
-#clockContainer{
+#clockContainer {
     background-color: red;
     height: 400%;
-    
-    width:340%;
-    background: url('C.jpg')no-repeat;
-   
+    width: 340%;
+    background: url('C.jpg') no-repeat;
     background-size: 100%;
     margin: auto;
     margin-top: 50%;
 }
-#hour,#minute,#second{
-    position:absolute;
+
+/* Add a media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    #clockContainer {
+        height: 200%;
+        /* Adjust the height for smaller screens */
+        width: 170%;
+        /* Adjust the width for smaller screens */
+        margin-top: 20%;
+    }
+}
+#hour,
+#minute,
+#second {
+    position: absolute;
     background: rgb(200, 43, 43);
     border-radius: 10px;
     transform-origin: bottom;
+}
+
+/* Add a media query for screens with a maximum width of 768px */
+#hour,
+#minute,
+#second {
+    position: absolute;
+    background: rgb(200, 43, 43);
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+/* Add a media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+
+    #hour,
+    #minute,
+    #second {
+        position: relative;
+        /* Use relative positioning for smaller screens */
+        width: 2%;
+        /* Adjust the width for smaller screens */
+        height: 10%;
+        /* Adjust the height for smaller screens */
+        top: 10%;
+        /* Adjust the top position for smaller screens */
+        left: 50%;
+        /* Center horizontally on smaller screens */
+        transform: translateX(-50%);
+        /* Center horizontally on smaller screens */
+    }
 }
 #hour{
     width: 0.5%;
