@@ -61,6 +61,26 @@
     font-size: 34px;
     animation: colorBlink 2s ease-in-out infinite;
 }
+@keyframes colorBlink {
+    0% {
+        color: rgb(89, 205, 50);
+        /* Start with the initial color */
+    }
+
+    50% {
+        color: rgb(0, 255, 247);
+        /* Change to a different color halfway through the animation */
+    }
+
+    100% {
+        color: salmon;
+        /* Change back to the initial color at the end of the animation */
+    }
+}
+
+
+
+
 .bg {
     background: url(https://i.ibb.co/87GbbFP/2799006.jpg) no-repeat;
     background-size: cover;
@@ -150,4 +170,3 @@
 .star-field .layer:nth-child(3) {
     animation: sf-fly-by-3 5s linear infinite;
 }
-
