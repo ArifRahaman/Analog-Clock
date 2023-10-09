@@ -54,6 +54,7 @@
 
 }
 .Time {
+     position: relative;
     
     left: 43%;
     color: salmon;
